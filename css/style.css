@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  
+  p {
+    font-family: Helvetica;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.75em;
+  }
+  
+  #container {
+    background-color: #999999;
+    float: left;
+    border: 1px solid #222222;    
+    position: relative;
+    margin-bottom: 15px;    
+    }
+
+  #head1 {
+    background-color: #d59898;
+    position: absolute;
+    border: 1px solid #222222;  
+    text-align: center;
+    font-weight: bold;
+    top: 0px;
+    right: 0px;
+    width: 120px;
+  }
+  
+  #head2 {
+    background-color: #c14543;    
+    position: absolute;
+    border: 1px solid #222222;  
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    top: 0px;
+    right: 0px;
+    width: 120px;
+
+  }
+
+  #head3 {
+    background-color: #e5d198;
+    position: absolute;
+    border: 1px solid #222222;  
+    text-align: center;
+    font-weight: bold;
+    top: 0px;
+    right: 0px;
+    width: 120px; 
+  }
+
+  #text {
+    margin-top: 55px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px){ 
+    .size {
+      width: 33.33%;
+    }
+  }
+
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .size {      
+      width: 50%;
+    }
+  }
+
+  /********** Small devices only **********/
+  @media (max-width: 767px) {
+    .size {
+      width: 100%;
+    }
+  }
