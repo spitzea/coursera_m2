@@ -1,64 +1,63 @@
 * {
     box-sizing: border-box;
-    font-size: 20px;
-  }
-  
-  p {
     font-family: Helvetica;
-  }
-
+    font-size: 20px;    
+  }  
+    
   h1 {
     text-align: center;
     font-size: 1.75em;
   }
   
-  #container {
-    background-color: #999999;
-    float: left;
-    border: 1px solid #222222;    
-    position: relative;
-    margin-bottom: 15px;    
+  #container {    
+    position: relative;    
+    float: left;      
+    margin-bottom: 15px;
+    padding: 10px;    
     }
 
   #head1 {
-    background-color: #d59898;
     position: absolute;
+    background-color: #d59898;    
     border: 1px solid #222222;  
     text-align: center;
     font-weight: bold;
-    top: 0px;
-    right: 0px;
-    width: 120px;
+    padding: 10px;
+    right: 10px;
+    width: 130px;
   }
   
   #head2 {
-    background-color: #c14543;    
     position: absolute;
+    background-color: #c14543;        
     border: 1px solid #222222;  
     text-align: center;
     font-weight: bold;
     color: white;
-    top: 0px;
-    right: 0px;
-    width: 120px;
+    padding: 10px;
+    right: 10px;
+    width: 130px;
 
   }
 
   #head3 {
-    background-color: #e5d198;
     position: absolute;
+    background-color: #e5d198;        
     border: 1px solid #222222;  
     text-align: center;
     font-weight: bold;
-    top: 0px;
-    right: 0px;
-    width: 120px; 
+    padding: 10px;
+    right: 10px;
+    width: 130px; 
   }
 
   #text {
-    margin-top: 55px;
-    margin-right: 15px;
-    margin-left: 15px;
+    position: absolute;    
+    background-color: #999999;    
+    border: 1px solid #222222;  
+    margin-right: 10px;
+    padding: 20px;    
+    padding-top: 50px;    
   }
 
   /* Simple Responsive Framework. */
