@@ -11,8 +11,7 @@
   
   #container {    
     position: relative;    
-    float: left;      
-    margin-bottom: 15px;
+    float: left;          
     padding: 10px;    
     }
 
@@ -23,7 +22,8 @@
     text-align: center;
     font-weight: bold;
     padding: 10px;
-    right: 10px;
+    top: 10px;
+    right: 20px;
     width: 130px;
   }
   
@@ -35,9 +35,9 @@
     font-weight: bold;
     color: white;
     padding: 10px;
-    right: 10px;
+    top: 10px;
+    right: 20px;
     width: 130px;
-
   }
 
   #head3 {
@@ -47,12 +47,12 @@
     text-align: center;
     font-weight: bold;
     padding: 10px;
-    right: 10px;
+    top: 10px;
+    right: 20px;
     width: 130px; 
   }
 
-  #text {
-    position: absolute;    
+  #text {    
     background-color: #999999;    
     border: 1px solid #222222;  
     margin-right: 10px;
@@ -77,6 +77,12 @@
     .size {      
       width: 50%;
     }
+    .size:last-child {
+      width: 100%
+    }
+}
+
+
   }
 
   /********** Small devices only **********/
